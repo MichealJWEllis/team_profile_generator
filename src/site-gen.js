@@ -2,13 +2,12 @@ const fs = require('fs');
 
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./dist/index.html', fileContent, Error => {
-            if (Error) {
-                reject(Error);
-                console.log(Error)
+        fs.writeFile('./dist/index.html', fileContent, err => {
+            if (err) {
+                reject(err);
+                console.log(err)
                 return;
             }
-
             resolve({
                 ok: true,
                 message:'Page Generated!'
@@ -17,4 +16,22 @@ const writeFile = fileContent => {
     })
 }
 
-module.exports = writeFile
+
+const copyFile = () => {
+  return new Promise ((resolve, reject) => {
+    fs.copyFile('./src/style.css', './dist/style.css', err => {
+      if (err) {
+        reject(err);
+        console.log(err)
+        return;
+      }
+      resolve({
+        ok: true,
+        message: 'CSS file copied!'
+      })
+    });
+  })
+}
+
+
+module.exports = { writeFile, copyFile };

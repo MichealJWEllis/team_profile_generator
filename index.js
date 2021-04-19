@@ -3,6 +3,7 @@ const Manager = require('./lib/Manager')
 const Employee = require('./lib/Employee')
 const Engineer = require('./lib/Engineer')
 const Intern = require('./lib/Intern')
+const pageGen = require('./src/pageConstruct')
 const writeFile = require('./src/site-gen')
 
 
@@ -112,4 +113,10 @@ function Prompt() {
 }
 
 Prompt()
+  .then(teamInfo => {
+    return pageGen(empArr)
+  })
+  .then(genHTML => {
+    return writefile(genHTML)
+  })
   
