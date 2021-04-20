@@ -1,4 +1,6 @@
 # team_profile_generator
 
-# NOTES: 
+# DEV-NOTES: 
     * Clean up code
+    * Add video
+    * Create README
