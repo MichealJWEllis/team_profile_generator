@@ -1,6 +1,6 @@
 const makeCards = teamInfo => {
 
-  const manager = teamInfo.manager.map(function(hire) {
+  const manager = teamInfo.manager.map(function (hire) {
     let mngrBoiler = `
     <div class="col">
     <div class="card h-100">
@@ -12,7 +12,7 @@ const makeCards = teamInfo => {
       <ul class="list-group list-group-flush">
         <li class="list-group-item">ID: ${hire.id}</li>
         <li class="list-group-item">Email: <a href="mailto:${hire.email}" class="card-link">${hire.email}</a></li>
-        <li class="list-group-item">Office Number: ${hire.office}</li>
+        <li class="list-group-item">Office Number: ${hire.officeId}</li>
       </ul>
     </div>
   </div>
@@ -20,7 +20,7 @@ const makeCards = teamInfo => {
     return mngrBoiler
   });
 
-  const engineer = teamInfo.engineer.map(function(hire) {
+  const engineer = teamInfo.engineer.map(function (hire) {
     let engBoiler = `
     <div class="col">
       <div class="card h-100">
@@ -59,7 +59,7 @@ const makeCards = teamInfo => {
     `
     return intBoiler
   })
-  return [manager, engineer, intern]
+  return [manager.join(''), engineer.join(''), intern.join('')]
 }
 
 module.exports = data => {
@@ -75,14 +75,15 @@ module.exports = data => {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
       
-    <link href="style.css" rel="stylesheet" />
+    <link href="../dist/style.css" rel="stylesheet" />
     <title>The Team</title>
   </head>
   <body>
     <header>
       <h1 class="head">MY TEAM</h1>
     </header>
-    ${makeCards(data)}
+    <div class="row row-cols-auto row-cols-md-3 g-4">
+    ${makeCards(data).join('')}
   </body>
   </html>
   `

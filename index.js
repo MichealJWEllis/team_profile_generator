@@ -1,10 +1,10 @@
 const inquirer = require('inquirer')
 const Manager = require('./lib/Manager')
-const Employee = require('./lib/Employee')
 const Engineer = require('./lib/Engineer')
 const Intern = require('./lib/Intern')
 const pageGen = require('./src/pageConstruct')
-const writeFile = require('./src/site-gen')
+const writeFile = require('./src/file-gen')
+const copyFile = require('./src/copy-file')
 
 
 let manager = []
@@ -117,6 +117,9 @@ Prompt()
     return pageGen(empArr)
   })
   .then(genHTML => {
-    return writefile(genHTML)
+    return writeFile(genHTML)
   })
-  
+  .then(genCSS => {
+    return copyFile(genCSS)
+  })
+
