@@ -1,87 +1,86 @@
+# Project team_profile_generator
 
-  # Project  team_profile_generator
-  
-  ## Badge
+## Badge
 
-  # ![License: Unlicense](https://img.shields.io/badge/license-Unlicense-black.svg)
+# ![License: Unlicense](https://img.shields.io/badge/license-Unlicense-black.svg)
 
-  ## Table of Contents
+## Table of Contents
 
-  * [Description](#description)
-  
-  * [Motivation](#motivation)
+- [Description](#description)
 
-  * [Code Used](#code_used)
+- [Motivation](#motivation)
 
-  * [Screenshot](#screenshot)
+- [Code Used](#code_used)
 
-  * [License](#license)
+- [Screenshot](#screenshot)
 
-  * [Contributed](#contributed)
+- [License](#license)
 
-  * [Tests](#tests)
+- [Contributed](#contributed)
 
-  * [Questions](#questions)
+- [Tests](#tests)
 
-  ---
+- [Questions](#questions)
 
-  ## Description
+---
 
-  This project was to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.  This project also will run passing tests using jest to create each employee's role, ID, and information for each employee position.  
+## Description
 
-  ---
+This project was to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. This project also will run passing tests using jest to create each employee's role, ID, and information for each employee position.
 
-  ## Motivation
+---
 
-  The project idea was to create as a convience for a company manager to categorize their employee's and information for each employee. 
+## Motivation
 
-  ---
+The project idea was to create as a convience for a company manager to categorize their employee's and information for each employee.
 
-  ## Code_Used
+---
 
-  JavaScript, HTML, CSS, Node.js
+## Code_Used
 
-  ---
+JavaScript, HTML, CSS, Node.js
 
-  ## Screenshot
+---
 
-  ![team_profile_generator](test)
+## Screenshot
 
-  ---
+![team_profile_generator](/src/2021-04-25_18h40_16.png)
+![Image](https://drive.google.com/file/d/1p1-l6n3YIWwZdqHiQgqE6yb7dx8eXVSA/view)
 
-  ## License
+---
 
-  Link: (https://opensource.org/licenses/Unlicense)
+## License
 
-  THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS (Unlicense) PUBLIC LICENSE (“AGREEMENT”). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
+Link: (https://opensource.org/licenses/Unlicense)
 
-  ---
+THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS (Unlicense) PUBLIC LICENSE (“AGREEMENT”). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
 
-  ## Contributed:
+---
 
-  All code was written by Micheal Jw Ellis
+## Contributed:
 
-  ---
+All code was written by Micheal Jw Ellis
 
-  ## Tests: 
+---
 
-  none
+## Tests:
 
-  ## Questions
+none
 
-  If you have any questions on this repo, please contact mellis.eriecon@gmail.com.
+## Questions
 
-  ## GitHub
+If you have any questions on this repo, please contact mellis.eriecon@gmail.com.
 
-  * [GitHub Repository Link: team_profile_generator](https://github.com/michealjwellis/team_profile_generator)
+## GitHub
 
-  * [GitHub Profile Link: michealjwellis](https://github.com/michealjwellis)
+- [GitHub Repository Link: team_profile_generator](https://github.com/michealjwellis/team_profile_generator)
 
-  ## CONTRIBUTION:
+- [GitHub Profile Link: michealjwellis](https://github.com/michealjwellis)
 
-  Made with ❤️ by Micheal Jw Ellis 
+## CONTRIBUTION:
 
-  ### Mentions: 
+Made with ❤️ by Micheal Jw Ellis
 
-  No mentions provided
+### Mentions:
 
+No mentions provided
