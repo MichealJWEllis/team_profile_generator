@@ -9,6 +9,7 @@ const copyFile = () => {
                 return;
             }
             resolve
+            console.log('CSS File Copied!')
         });
     })
 }

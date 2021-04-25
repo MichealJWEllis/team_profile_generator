@@ -117,9 +117,9 @@ Prompt()
     return pageGen(empArr)
   })
   .then(genHTML => {
+    copyFile()
     return writeFile(genHTML)
+
   })
-  .then(genCSS => {
-    return copyFile(genCSS)
-  })
+  
 

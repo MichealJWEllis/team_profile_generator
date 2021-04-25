@@ -9,6 +9,7 @@ const writeFile = fileContent => {
                 return;
             }
             resolve
+            console.log('HTML File Generated!')
         })
     })
 }
