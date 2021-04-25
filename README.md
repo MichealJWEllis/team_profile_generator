@@ -45,7 +45,7 @@ JavaScript, HTML, CSS, Node.js
 ## Screenshot
 
 ![team_profile_generator](/src/2021-04-25_18h40_16.png)
-![Image](https://drive.google.com/file/d/1p1-l6n3YIWwZdqHiQgqE6yb7dx8eXVSA/view)
+[Walk-through Link](https://www.youtube.com/watch?v=dntTCfglcJI)
 
 ---
 
